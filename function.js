@@ -10,13 +10,13 @@ function timer(){
     
     if (count % 3 ===0){
         subtitle.style.color = 'gray';
-    } elseif(count % 3 ===1){
+    } else if(count % 3 ===1){
         subtitle.style.color = 'black';
-    } elseif(count % 3 ===2){
+    } else if(count % 3 ===2){
         subtitle.style.color = 'red';
     }
     console.log(count);
 }
 
 btn.onclick = change;
-setInterval(timer, 3000)
+setInterval(timer, 1000)
